@@ -1,0 +1,2 @@
+# NexonOS
+Arch-based distro
