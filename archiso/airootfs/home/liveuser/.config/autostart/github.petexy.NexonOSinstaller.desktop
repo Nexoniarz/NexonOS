@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=NexonOS Installer
+
+Exec=python /usr/share/nexonos-installer/installer
+
+Icon=/usr/share/nexonos-installer/images/github.petexy.NexonOSinstaller.svg
+
+Terminal=false
+Type=Application
+Categories=GTK; Installer;System;NexonOS;Adwaita;
+StartupNotify=false
