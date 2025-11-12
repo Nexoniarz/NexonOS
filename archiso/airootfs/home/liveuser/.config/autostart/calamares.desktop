@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Exec=calamares
-Name=NexonOS Installer
-Comment=Start NexonOS installer
-X-KDE-AutostartAfterLogin=true
-X-KDE-AutostartConditionNeedsTerminal=false
