@@ -1,0 +1,15 @@
+[Unit]
+Description=Stop Plymouth Splash Screen
+After=display-manager.service multi-user.target
+Wants=plymouth-start.service
+ConditionKernelCommandLine=!plymouth.enable=0
+ConditionVirtualization=!container
+IgnoreOnIsolate=yes
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/plymouth --quit
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
