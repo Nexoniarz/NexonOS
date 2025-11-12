@@ -20,6 +20,7 @@ linux
 linux-firmware
 linux-firmware-marvell
 linux-headers
+libadwaita
 logrotate
 lsb-release
 man-db
@@ -65,6 +66,9 @@ pacman-contrib
 pkgfile
 poppler-glib
 power-profiles-daemon
+python
+python-gobject
+gtk4
 rebuild-detector
 reflector
 rsync
